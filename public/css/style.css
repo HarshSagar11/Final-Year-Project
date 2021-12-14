@@ -1,0 +1,44 @@
+/* navbar  */
+.nav-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 3rem;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #af7de0;
+}
+body{
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+
+.navbar{
+    background-color: #d9bcdf;
+    position: fixed;
+    margin-top: 0rem;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.nav-image{
+    height: 45px;
+    width:45px ;
+    border-radius: 20px;
+}
+
+.login{
+    margin-top: 2%;
+}
+
+.intro{
+   margin: 1rem 2rem;
+   text-align: center;
+}
+.intro-heading{
+    text-align: center ;
+}
+
+.card{
+    background-image: -webkit-linear-gradient(115deg, #a8f394 50%, #f7dba1 50%);
+}
