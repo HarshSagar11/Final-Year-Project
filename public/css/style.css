@@ -21,6 +21,11 @@ body{
     backdrop-filter: blur(8px);
 }
 
+.btn{
+    margin-top: 1.2%;
+
+}
+
 .nav-image{
     height: 45px;
     width:45px ;
@@ -32,13 +37,82 @@ body{
 }
 
 .intro{
-   margin: 1rem 2rem;
+   margin: 4rem 2rem;
    text-align: center;
+   
 }
 .intro-heading{
     text-align: center ;
 }
 
 .card{
-    background-image: -webkit-linear-gradient(115deg, #a8f394 50%, #f7dba1 50%);
+    background-image: -webkit-linear-gradient(115deg, #a4ebb9 50%, #e0f09d 50%);
+    text-align: center;
+}
+
+.row{
+    margin:10px;
+    padding:10px;
+}
+.card-title{
+    text-align: center;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+    bottom: 0rem;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+    /* z-index: 150; */
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.logbtn{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20%;
+}
+
+
+/* Login page */
+.login{
+    text-align: center;
+}
+
+.loginput{
+    width: 250px;
+}
+
+/* signup page for teachers */
+.label{
+    text-align: right;
+}
+.tinput{
+    margin: 5px 0px;
+    width:250px;
+}
+.label p{
+    font-size: 1.2rem;
+}
+.signupbtn{
+    text-align: center;
+    margin: auto;
+}
+
+/* signup pagge for students */
+.sinput{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 30px;
 }

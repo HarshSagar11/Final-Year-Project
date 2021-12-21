@@ -1,0 +1,48 @@
+<%- include("header") -%> 
+
+<div class="heading">
+    <h1>Signup Page for Teachers</h1>
+</div>
+<form action="/tsign" method="post">
+    <div class="form">
+        <div class="row">
+            <div class="label col-lg-5">
+                <div>
+                    <p>Name: </p>
+                </div>
+                <div>
+                    <p>Email: </p>
+                </div>
+                <div>
+                    <p>Phone: </p>
+                </div>
+                <div>
+                    <p>Department: </p>
+                </div>
+            </div>
+            <div class="col-lg-1">
+
+            </div>
+            <div class="form col-lg-6">
+                
+                    <div>
+                        <input type="text" name="TName" placeholder="Enter Your Name" class="tinput">
+                    </div>
+                    <div>
+                        <input type="email" name="TEmail" placeholder="Enter Your Email" class="tinput">
+                    </div>
+                    <div>
+                        <input type="tel" name="TPhone" placeholder="Enter Your Phone" size="10" maxlength="10" class="tinput">
+                    </div>
+                    <div>
+                        <input type="text" name="TDept" placeholder="Enter your Depatrment" maxlength="40" class="tinput">
+                    </div>
+                
+            </div>
+        </div>
+        <div class="signupbtn">
+            <button type="submit" class="btn  btn-primary btn-lg" >Sign Me Up</button>
+        </div>
+    </div>
+</form>
+<%- include("footer") -%> 

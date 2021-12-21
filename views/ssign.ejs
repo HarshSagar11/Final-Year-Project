@@ -1,0 +1,84 @@
+<%- include("header") -%> 
+
+<div>
+    <h1 style="text-align: center">Signup Page for Students</h1>
+</div>
+<form action="/ssign" method="post">
+    <div class="row">
+        <div class="col-lg-6">
+            <h3 style="text-align: center;">
+                           Personal Details
+            </h3>
+            <div class="row">
+                <div class="label col-lg-6">
+                    <div>
+                        <p>Name: </p>
+                    </div>
+                    <div>
+                        <p>
+                            Email: 
+                        </p>
+                    </div>
+                    <div>
+                        <p>Phone: </p>
+                    </div>
+                    <div>
+                        <p>Department: </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <input type="text" name="SName" placeholder="Enter Your Name" class="sinput">
+                    </div>
+                    <div>
+                        <input type="email" name="SEmail"  placeholder="Enter Your Email" class="sinput">
+                    </div>
+                    <div>
+                        <input type="tel" name="SPhone" placeholder="Enter Your Phone" class="sinput">
+                    </div>
+                    <div>
+                        <input type="text" name="SDept" placeholder="Enter Your department" class="sinput">
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="col-lg-6">
+            <h3 style="text-align: center;">Education Details</h3>
+            <div class="row">
+                <div class="label col-lg-6">
+                    <div>
+                        <p>10th Marks(IN %): </p>
+                    </div>
+                    <div>
+                        <p>12th Marks(IN %): </p>
+                    </div>
+                    <div>
+                        <p>Diploma (IF APPLICABLE): </p>
+                    </div>
+                    <div>
+                        <p>B.Tech (C.G.P.A.): </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <input type="number" name="S10th" placeholder="10th Marks in %"  size="100" step="0.1" max="100" class="sinput">
+                    </div>
+                    <div>
+                        <input type="number" name="S12th"  placeholder="10th Marks in %" size="100" step="0.1" max="100" class="sinput">
+                    </div>
+                    <div>
+                        <input type="number" name="Sdip" placeholder="Diploma C.G.P.A" size="10" step="0.1" max="10" class="sinput">
+                    </div>
+                    <div>
+                        <input type="number" name="Sbtech" placeholder="B.Tech C.G.P.A" size="10" step="0.1" max="10" class="sinput">
+                    </div>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="signupbtn">
+        <button type="submit" class="btn btn-primary btn-lg">Sign Me Up</button>
+    </div>
+</form>
+
+<%- include("footer") -%> 
